@@ -11,6 +11,9 @@ importers:
       '@actions/core':
         specifier: ^1.10.0
         version: 1.11.1
+      close-with-grace:
+        specifier: ^2.2.0
+        version: 2.2.0
       get-port:
         specifier: ^6.1.2
         version: 6.1.2
@@ -871,6 +874,9 @@ packages:
 
   close-with-grace@1.1.0:
     resolution: {integrity: sha512-6cCp71Y5tKw1o9sGVBOa9OwY4vJ+YoLpFcWiTt9YCBhYlcQi0z68EiiN9mJ6/401Za6TZ5YOZg012IHHZt15lw==}
+
+  close-with-grace@2.2.0:
+    resolution: {integrity: sha512-OdcFxnxTm/AMLPHA4Aq3J1BLpkojXP7I4G5QBQLN5TT55ED/rk04rAoDbtfNnfZ988kGXPxh1bdRLeIU9bz/lA==}
 
   color-convert@1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
@@ -3610,6 +3616,8 @@ snapshots:
   clone@2.1.2: {}
 
   close-with-grace@1.1.0: {}
+
+  close-with-grace@2.2.0: {}
 
   color-convert@1.9.3:
     dependencies:

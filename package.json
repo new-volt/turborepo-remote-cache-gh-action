@@ -10,7 +10,6 @@
     "build": "npm-run-all clean --parallel build:*",
     "build:server": "ncc build src/server.ts -o dist/server",
     "build:start": "ncc build src/start.ts -o dist/start",
-    "build:start_and_log": "ncc build src/start_and_log.ts -o dist/start_and_log",
     "build:post": "ncc build src/post.ts -o dist/post",
     "typecheck": "tsc --noEmit"
   },
@@ -19,7 +18,8 @@
     "get-port": "^6.1.2",
     "indent-string": "^5.0.0",
     "prettier": "^2.8.4",
-    "tcp-port-used": "^1.0.2"
+    "tcp-port-used": "^1.0.2",
+    "close-with-grace": "^2.2.0"
   },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
